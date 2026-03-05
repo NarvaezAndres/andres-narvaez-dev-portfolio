@@ -4,18 +4,18 @@
 Inicializar un proyecto frontend moderno, reproducible y listo para escalar sin deuda técnica temprana.
 
 ## Resultado esperado
-Al finalizar esta fase tendrás:
+Al finalizar esta fase habra:
 - Proyecto React + Vite funcional.
 - TailwindCSS instalado y validado.
 - Base de convenciones para commits y ramas.
 - Estructura inicial lista para la Fase 3.
 
-## Decisiones técnicas (y por qué)
+## Decisiones técnicas
 - **Vite** por velocidad en desarrollo y build.
 - **React** por ecosistema, reutilización de componentes y mantenibilidad.
 - **TailwindCSS** para estandarizar diseño y evitar CSS caótico.
 
-## Paso a paso (ejecútalo tú)
+## Guía Paso a paso
 > Usa Node LTS (idealmente 20+).
 
 1. Crear proyecto
@@ -41,13 +41,12 @@ Al finalizar esta fase tendrás:
    ```bash
    npm run dev
    ```
-   Si todo está correcto, deberías ver el proyecto en `http://localhost:5173`.
+   Si todo está correcto, asi aparece el proyecto en `http://localhost:5173`.
 
 ## Criterios de aceptación de la fase
 - `npm run dev` inicia sin errores.
 - `npm run build` compila exitosamente.
 - Tailwind aplica estilos en al menos un componente de prueba.
-- Proyecto en GitHub con primer commit limpio.
 
 ## Buenas prácticas recomendadas
 - Commits pequeños y atómicos por tema.
@@ -55,7 +54,7 @@ Al finalizar esta fase tendrás:
 - Crear `README` de proyecto con comandos de setup y run.
 - No mezclar lógica de negocio en componentes de presentación.
 
-## Riesgos comunes (evítalos)
+## Riesgos comunes
 - Instalar dependencias sin bloquear versión de Node.
 - Configurar Tailwind parcialmente y asumir que funciona.
 - Saltar validaciones (`build` y `lint`) en etapa temprana.
@@ -64,5 +63,3 @@ Al finalizar esta fase tendrás:
 - [ ] Proyecto creado con Vite + React.
 - [ ] Tailwind instalado y funcionando.
 - [ ] Scripts de desarrollo y build probados.
-- [ ] Repositorio con commit inicial.
-- [ ] Preparado para la Fase 3 (estructura de carpetas).
