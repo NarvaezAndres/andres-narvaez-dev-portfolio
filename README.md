@@ -123,3 +123,9 @@ GitHub: https://github.com/NarvaezAndres
 ---
 
 ⭐ Gracias por visitar mi portafolio.
+
+---
+
+## 🗺 Roadmap del Portafolio
+
+- Plan de la Fase 1: `docs/phase-1-plan.md`
